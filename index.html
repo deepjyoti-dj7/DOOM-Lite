@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOOM Lite</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="scoreBoard">Score : 0</div>
+    <div class="rules">
+      <div>Left click : Fire Bullets</div>
+      <div>Right Click : Kamehameha (-40)</div>
+      <div>SpaceBar : LaserBeam (-100)</div>
+    </div>
+    <form action="" method="get">
+      <select name="difficulty" id="difficulty">
+        <option value="Beginner">Beginner</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="GodMode">GodMode</option>
+        <option value="Adaptive">Adaptive</option>
+      </select>
+      <input type="submit" value="Play" />
+      <button class="musicBtn">On/Off Music</button>
+    </form>
+    <div class="myGame"></div>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"
+    integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="./index.js"></script>
+</html>
