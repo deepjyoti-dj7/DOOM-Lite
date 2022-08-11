@@ -554,6 +554,10 @@ addEventListener("dblclick", (e) => {
   e.preventDefault();
 });
 
+addEventListener("onselect", (e) => {
+  e.preventDefault();
+});
+
 addEventListener("resize", () => {
   window.location.reload();
 });
