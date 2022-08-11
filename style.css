@@ -48,7 +48,7 @@ canvas {
 }
 
 .rules > div:nth-child(1) {
-  color: rgb(255, 225, 55);
+  color: gold;
 }
 
 .rules > div:nth-child(2) {
